@@ -46,7 +46,6 @@ plainwhite:
 # - about.md
 
 # Build settings
-theme: plainwhite
 remote_theme: thelehhman/plainwhite-jekyll
 
 plugins:
