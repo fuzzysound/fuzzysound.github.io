@@ -14,7 +14,7 @@ l = [i for i in range(10)]
 l2 = [i for i in l if i % 2]
 # l2 = [1, 3, 5, 7, 9]
 ```
-List comprehension을 이용하면 초기값이 있는 리스트를 간결하게 생성할 수 있으며, [리스트 외부에서 반복문을 사용하는 것보다 빠르기 때문에](https://stackoverflow.com/questions/16907109/python-list-comprehension-vs-for/16907417) 실제 프로젝트에서도 자주 사용되는 문법이다.
+List comprehension을 이용하면 초기값이 있는 리스트를 간결하게 생성할 수 있으며, [리스트 외부에서 반복문을 사용하는 것보다 빠르기 때문에](https://stackoverflow.com/questions/16907109/python-list-comprehension-vs-for/16907417){:target="_blank"} 실제 프로젝트에서도 자주 사용되는 문법이다.
 
 단순히 쓰기 편리한 것 외에도, list comprehension은 리스트를 의도한 대로 사용하는 데 도움이 된다. 예를 들어 dymanic programming으로 문제를 푼다고 가정해보자. 만약 10개의 리스트가 필요하다면, 이를 한 리스트 안에 생성할 수 있는 one-liner로 다음과 같은 코드를 떠올릴 수 있다 (후술하겠지만 잘못된 코드이다).
 ```python
