@@ -53,3 +53,5 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
+
+google_fonts: "Nanum+Gothic:400,700"
