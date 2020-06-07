@@ -35,7 +35,7 @@ layout: default
       <br>
     </li>
 
-    {%- for post in site.posts -%}
+    {%- for post in site.posts reversed -%}
       <li>
         <div class="post-wrapper"
           {% if post.tags %}
