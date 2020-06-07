@@ -2,7 +2,7 @@
 layout: post
 title:  "[파이썬 코딩테스트 팁] sys.setrecursionlimit"
 date:   2020-06-07
-categories: Python 코딩테스트
+tags: [python, coding-test]
 ---
 ```python
 import sys
