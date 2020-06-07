@@ -2,8 +2,6 @@
 ---
 
 @import "plain";
-@import "main";
-@import "tag";
 
 {% if site.plainwhite.search %}
   @import "search";
