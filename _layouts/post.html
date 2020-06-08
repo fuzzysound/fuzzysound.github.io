@@ -22,7 +22,7 @@ layout: default
   {% if page.tags %}
     {% for tag in page.tags %}
       {% if site.data.tags contains tag %}
-        <a class="no-underline" href="/?tag={{ tag }}">
+        <a class="no-underline" href="{{ site.baseurl }}/?tag={{ tag }}">
           <span class="tag">{{ site.data.format[tag] }}</span>
         </a>
       {% endif %}
