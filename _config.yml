@@ -5,7 +5,6 @@ description: > # this means to ignore newlines until "show_exerpts:"
   아직 주니어에요.
 show_excerpts: true # set to true to show excerpts on the homepage
 permalink: /:title
-baseurl: "/blog"
 url: "https://fuzzysound.github.io"
 
 # Minima date format
