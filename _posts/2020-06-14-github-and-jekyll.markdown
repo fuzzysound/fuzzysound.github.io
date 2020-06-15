@@ -11,7 +11,7 @@ tags: [ruby, jekyll, github]
 # `theme`과 `remote_theme`
 `_config.yml`의 `theme` 옵션은 프로젝트에 설치된 gem으로부터 jekyll 테마를 불러올 수 있게 한다. 그래서 내 로컬 환경에 원하는 테마의 gem을 깔고 `theme` 옵션을 통해 테마를 적용할 수 있지만 그걸 Github Pages에서 쓸 수 있다는 보장은 없다. Github Pages에서 사용 가능한 `theme` 옵션 값은 [이 페이지](https://pages.github.com/themes/){:target="_blank"}에 있는 것에만 한정되며, 여기 없는 값을 입력했을 경우 깃헙으로부터 page build warning 메일을 받게 된다.
 
-이를 위해 깃헙은 `remote_theme` 옵션을 제공한다. `remote_theme` 옵션은 다른 사람의 깃헙 저장소에 올라와 있는 테마를 사용할 수 있도록 한다. 옵션 값은 { 계정 이름 }/{ 저장소 이름 }으로 주면 된다. 예를 들어 해당 저장소 주소가 https://github.com/thelehhman/plainwhite-jekyll 이라면 옵션 값을 `thelehman/plainwhite-jekyll`로 주면 된다. 문제는 로컬 jekyll은 `remote_theme` 옵션을 인식하지 못한다는 것인데, 이는 [github-pages](https://github.com/github/pages-gem){:target="_blank"} gem을 설치하여 해결할 수 있다.
+이를 보완하기 위해 깃헙은 `remote_theme` 옵션을 제공한다. `remote_theme` 옵션은 다른 사람의 깃헙 저장소에 올라와 있는 테마를 사용할 수 있도록 한다. 옵션 값은 { 계정 이름 }/{ 저장소 이름 }으로 주면 된다. 예를 들어 해당 저장소 주소가 https://github.com/thelehhman/plainwhite-jekyll 이라면 옵션 값을 `thelehman/plainwhite-jekyll`로 주면 된다. 문제는 로컬 jekyll은 `remote_theme` 옵션을 인식하지 못한다는 것인데, 이는 [github-pages](https://github.com/github/pages-gem){:target="_blank"} gem을 설치하여 해결할 수 있다.
 
 # 플러그인 사용
 
