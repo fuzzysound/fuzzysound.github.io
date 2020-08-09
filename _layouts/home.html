@@ -64,6 +64,9 @@ layout: default
           <div class="post">
             {%- if site.show_excerpts -%}
               {{ post.excerpt }}
+              <a class="post-link" href={{ post.url | relative_url }}>
+                ...(more)
+              </a>
             {%- endif -%}
           </div>
           <div class="tag-container">
