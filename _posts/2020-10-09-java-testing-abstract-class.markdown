@@ -151,7 +151,7 @@ public abstract class MyClass<T, U extends MyClass<T, U>> {
 다음과 같이 나이브하게 타입을 지정해주면 컴파일 에러가 뜬다.
 ```java
     MyClass<String, MyClass> myClass = spy(MyClass.class);
-    // Type parameter 'MyClass' is not within its bound; should extend 'MyClass<java.lang.Integer,MyClass>'
+    // Type parameter 'MyClass' is not within its bound; should extend 'MyClass<java.lang.String,MyClass>'
 ```
 이럴 때는 다음과 같이 와일드카드 타입으로 선언하면 된다.
 ```java
