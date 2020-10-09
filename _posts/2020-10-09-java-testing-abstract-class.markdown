@@ -68,6 +68,7 @@ public class MyClassTest {
     }
 }
 ```
+
 만약 다음과 같이 `MyClass`에 파라미터를 받는 생성자가 있고, 테스트에서 이 생성자를 사용해서 목 객체를 만들고 싶다면?
 ```java
     public MyClass(int a) {
