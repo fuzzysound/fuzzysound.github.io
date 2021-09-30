@@ -23,8 +23,6 @@ plainwhite:
   # generate social links in footer
   social_links:
     github:  fuzzysound
-    linkedIn: in/fuzzysound
-    rss: rss
     # twitter: 
     # dribbble: jekyll
     # flickr:   jekyll
